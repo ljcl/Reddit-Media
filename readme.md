@@ -3,4 +3,4 @@ Extensions for Chrome and Safari that add expand buttons for images and imgur ga
 
 Please feel free to contribute.
 
-[View Project page](https://github.com/ljcl/Reddit-Media)
+[View Project page](http://www.lukejclark.com/work/reddit-media)
