@@ -1,0 +1,25 @@
+{
+   "name": "Reddit Media",
+   "version": "1.0",
+   "manifest_version": 2,
+
+   "description" : "Adds expand buttons for images and imgur galleries. Also allows batch expansion and hiding of links.",
+   "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+   },
+
+   "content_scripts": [ {
+      "matches": [ "http://www.reddit.com/r/*/comments/*", "http://www.reddit.com/*" ],
+      "js": [ "jquery-2.0.0.min.js", "rmedia.js" ],
+      "css" : [ "rmedia.css" ],
+      "run_at": "document_end"
+   } ],
+
+   "web_accessible_resources": [
+      "expando.png"
+   ],
+
+   "permissions": [ "http://reddit.com/*" ]
+}
